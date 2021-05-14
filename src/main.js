@@ -18,7 +18,7 @@ axios.defaults.withCredentials = false;
 
 // axios.defaults.baseURL = 'https://runestone2021-server.herokuapp.com';
 // axios.defaults.baseURL = "http://0eb09badb0e4.ngrok.io";
-axios.defaults.baseURL = "http://13.67.42.59:8079";
+axios.defaults.baseURL = "http://137.116.132.172:8079/8079";
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 
 
