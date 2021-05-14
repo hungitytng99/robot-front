@@ -15,9 +15,10 @@ Vue.config.productionTip = false;
 // Vue.http.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.withCredentials = false;
 // axios.defaults.baseURL = 'https://runestone2021.herokuapp.com';
+
 axios.defaults.baseURL = 'https://runestone2021-server.herokuapp.com';
 // axios.defaults.baseURL = "http://0eb09badb0e4.ngrok.io";
-// axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = "http://13.67.42.59:8079";
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 
 
